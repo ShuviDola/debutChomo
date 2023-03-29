@@ -6,7 +6,6 @@
         "type": "header",
         "settings": {
           "align_logo": "center",
-          "logo": "shopify:\/\/shop_images\/Dormir_feliz.png",
           "logo_max_width": 250,
           "main_linklist": "main-menu",
           "message": false,
