@@ -13,6 +13,38 @@
         "button_link": ""
       }
     },
+    "87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ruido-blanco"
+          }
+        },
+        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "humidificadores-de-agua"
+          }
+        },
+        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "humidificadores-de-aromaterapia"
+          }
+        }
+      },
+      "block_order": [
+        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-0",
+        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-1",
+        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-2"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "grid": 3
+      }
+    },
     "feature-row": {
       "type": "feature-row",
       "settings": {
@@ -191,6 +223,7 @@
   },
   "order": [
     "hero-1",
+    "87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7",
     "feature-row",
     "feature-columns",
     "9e28ef57-4e58-4057-b684-1428102c86cf",
