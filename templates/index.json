@@ -16,9 +16,10 @@
     "feature-row": {
       "type": "feature-row",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1.jpg",
         "layout": "left",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "title": "Humidificador Nube de Lluvia",
+        "text": "<p>Humidificador que simula el sonido de la lluvia<\/p>",
         "button_label": "",
         "button_link": ""
       }
@@ -30,8 +31,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/Captura.png",
+            "title": "Ruido blanco",
+            "text": "<p>El ruido blanco es una combinación de frecuencias de sonido que bloquea otros sonidos no deseados y ayuda a dormir mejor y a mejorar la concentración y la productividad en el trabajo.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -40,8 +42,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/S93935b7e1df143eab1a934182e4a41aae.jpg_720x720q50_1024x1024_2x_e4f1b7fc-a6b1-4006-9884-684b00b22e24.jpg",
+            "title": "Humidificador",
+            "text": "<p>Dispositivo que aumenta la humedad en el aire para mejorar los niveles de humedad en una habitación o espacio, beneficioso para la salud y para proteger muebles y pisos de madera.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -50,8 +53,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hc1b1b975686c4a30b52de69190683ffdX.jpg_720x720q50_1024x1024_2x_4c7d50b4-31bb-4ef3-be3f-09b5800752a9.jpg",
+            "title": "Aromaterapia",
+            "text": "<p>Tratamiento que utiliza aceites esenciales para mejorar la salud física y mental, con beneficios relajantes, energizantes y curativos.<\/p>",
             "button_label": "",
             "button_link": ""
           }
