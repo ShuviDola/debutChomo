@@ -89,6 +89,17 @@
         "show_view_all": false
       }
     },
+    "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4": {
+      "type": "collection",
+      "settings": {
+        "title": "Humidificadores de aromaterapia",
+        "collection": "humidificadores-de-aromaterapia",
+        "grid": 2,
+        "rows": 5,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
     "hero-2": {
       "type": "hero",
       "settings": {
@@ -180,6 +191,7 @@
     "feature-columns",
     "collection",
     "9e28ef57-4e58-4057-b684-1428102c86cf",
+    "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4",
     "hero-2",
     "quotes",
     "image-bar"
