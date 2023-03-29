@@ -82,6 +82,20 @@
         "show_view_all": false
       }
     },
+    "109428ce-f58e-466c-ae5b-851c32ce27d7": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/city-lights-through-rain-window.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Humidificador",
+        "text": "<p>Dispositivo que aumenta la humedad en el aire para mejorar los niveles de humedad en una habitación o espacio, beneficioso para la salud y para proteger muebles y pisos de madera.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "collection": {
       "type": "collection",
       "settings": {
@@ -91,6 +105,20 @@
         "rows": 5,
         "show_vendor": false,
         "show_view_all": false
+      }
+    },
+    "75f62bdc-967d-447b-b4b5-efc5a31fcb16": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/candle-burning.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Aromaterapia",
+        "text": "<p>Tratamiento que utiliza aceites esenciales para mejorar la salud física y mental, con beneficios relajantes, energizantes y curativos.<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4": {
@@ -184,7 +212,9 @@
     "87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7",
     "hero-2",
     "9e28ef57-4e58-4057-b684-1428102c86cf",
+    "109428ce-f58e-466c-ae5b-851c32ce27d7",
     "collection",
+    "75f62bdc-967d-447b-b4b5-efc5a31fcb16",
     "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4",
     "quotes",
     "image-bar"
