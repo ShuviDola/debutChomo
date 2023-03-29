@@ -1,19 +1,5 @@
 {
   "sections": {
-    "5f463d6d-22da-41aa-81eb-d12fa457373f": {
-      "type": "hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/city-lights-through-rain-window.jpg",
-        "alignment": "center",
-        "hero_layout": "full_width",
-        "hero_size": "medium",
-        "text_size": "large",
-        "title": "PRODUCTOS PARA UN DESCANSO ADECUADO",
-        "text": "<p>Apartatos de ruido blanco<\/p><p>Humidificadores<\/p><p>Aromaterapia<\/p>",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "feature-row": {
       "type": "feature-row",
       "settings": {
@@ -23,38 +9,6 @@
         "text": "<p>Humidificador que simula el sonido de la lluvia<\/p>",
         "button_label": "COMPRAR",
         "button_link": "shopify:\/\/products\/humidificador-nube-de-lluvia"
-      }
-    },
-    "87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7": {
-      "type": "collection-list",
-      "blocks": {
-        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ruido-blanco"
-          }
-        },
-        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "humidificadores-de-agua"
-          }
-        },
-        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "humidificadores-de-aromaterapia"
-          }
-        }
-      },
-      "block_order": [
-        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-0",
-        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-1",
-        "template--18487494639965__87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7-1680129021cc74d765-2"
-      ],
-      "settings": {
-        "title": "Colecciones",
-        "grid": 3
       }
     },
     "hero-2": {
@@ -207,9 +161,7 @@
     }
   },
   "order": [
-    "5f463d6d-22da-41aa-81eb-d12fa457373f",
     "feature-row",
-    "87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7",
     "hero-2",
     "9e28ef57-4e58-4057-b684-1428102c86cf",
     "109428ce-f58e-466c-ae5b-851c32ce27d7",
