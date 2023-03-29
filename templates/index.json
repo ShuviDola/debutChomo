@@ -1,15 +1,15 @@
 {
   "sections": {
-    "hero-1": {
+    "5f463d6d-22da-41aa-81eb-d12fa457373f": {
       "type": "hero",
-      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/city-lights-through-rain-window.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
-        "hero_size": "large",
+        "hero_size": "medium",
         "text_size": "large",
-        "title": "Image with text overlay",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "title": "PRODUCTOS PARA UN DESCANSO ADECUADO",
+        "text": "<p>Apartatos de ruido blanco<\/p><p>Humidificadores<\/p><p>Aromaterapia<\/p>",
         "button_label": "",
         "button_link": ""
       }
@@ -207,7 +207,7 @@
     }
   },
   "order": [
-    "hero-1",
+    "5f463d6d-22da-41aa-81eb-d12fa457373f",
     "feature-row",
     "87e2eee3-a51d-4d02-afaf-3e32d6b3e5b7",
     "hero-2",
