@@ -70,8 +70,19 @@
     "collection": {
       "type": "collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Humidificadores de agua",
         "collection": "humidificadores-de-agua",
+        "grid": 3,
+        "rows": 5,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "9e28ef57-4e58-4057-b684-1428102c86cf": {
+      "type": "collection",
+      "settings": {
+        "title": "Ruido blanco",
+        "collection": "ruido-blanco",
         "grid": 3,
         "rows": 5,
         "show_vendor": false,
@@ -168,6 +179,7 @@
     "feature-row",
     "feature-columns",
     "collection",
+    "9e28ef57-4e58-4057-b684-1428102c86cf",
     "hero-2",
     "quotes",
     "image-bar"
