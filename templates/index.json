@@ -2,6 +2,7 @@
   "sections": {
     "feature-row": {
       "type": "feature-row",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1.jpg",
         "layout": "left",
