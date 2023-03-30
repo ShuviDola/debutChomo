@@ -21,7 +21,7 @@
         "hero_size": "medium",
         "text_size": "large",
         "title": "Ruido blanco",
-        "text": "<p>El ruido blanco es una combinación de frecuencias de sonido que bloquea otros sonidos no deseados y ayuda a dormir mejor y a mejorar la concentración y la productividad en el trabajo.<\/p>",
+        "text": "<p>El ruido blanco es una mezcla de frecuencias sonoras que neutraliza otros sonidos indeseados, facilitando un mejor descanso y potenciando la concentración y productividad en el trabajo.<br\/><\/p>",
         "button_label": "MÁS INFORMACIÓN",
         "button_link": ""
       }
@@ -46,7 +46,7 @@
         "hero_size": "medium",
         "text_size": "large",
         "title": "Humidificador",
-        "text": "<p>Dispositivo que aumenta la humedad en el aire para mejorar los niveles de humedad en una habitación o espacio, beneficioso para la salud y para proteger muebles y pisos de madera.<\/p>",
+        "text": "<p>Aumenta la humedad del aire en espacios interiores para mejorar la salud, aliviar la sequedad y proteger muebles y pisos de madera.<br\/><\/p>",
         "button_label": "",
         "button_link": ""
       }
@@ -71,7 +71,7 @@
         "hero_size": "medium",
         "text_size": "large",
         "title": "Aromaterapia",
-        "text": "<p>Tratamiento que utiliza aceites esenciales para mejorar la salud física y mental, con beneficios relajantes, energizantes y curativos.<\/p>",
+        "text": "<p>Terapia que utiliza aceites esenciales para mejorar el bienestar físico y emocional, con efectos relajantes, energizantes y curativos.<br\/><\/p>",
         "button_label": "",
         "button_link": ""
       }
