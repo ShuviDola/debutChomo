@@ -1,6 +1,6 @@
 {
   "current": {
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "sections": {
       "header": {
         "type": "header",
