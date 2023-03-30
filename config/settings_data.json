@@ -116,7 +116,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "title": "Quick links",
+              "title": "",
               "menu": "footer"
             }
           },
