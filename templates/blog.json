@@ -7,9 +7,21 @@
         "blog_show_author": false,
         "blog_show_date": true
       }
+    },
+    "df2309cf-2dae-419c-aec4-0ade96fb5cc7": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "",
+        "blog": "ruido-blanco-para-bebes",
+        "post_limit": 3,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "df2309cf-2dae-419c-aec4-0ade96fb5cc7"
   ]
 }
