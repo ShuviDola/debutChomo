@@ -8,17 +8,6 @@
         "show_share_buttons": true
       }
     },
-    "a620fb83-5350-4e8d-ad85-69b7d7ce7aa1": {
-      "type": "feature-row",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Captura.png",
-        "layout": "left",
-        "title": "Máquina Portátil de Ruido Blanco con Luz LED Nocturna y Temporizador - 16 Sonidos Relajantes",
-        "text": "<p>Fácil de colgar gracias a su cordón portátil, este dispositivo de ruido blanco es perfecto para el cochecito del bebé o la cuna, y su memoria de apagado te permite retomar el último sonido y volumen al encenderlo nuevamente. ¡No esperes más para disfrutar de un sueño más placentero y una mayor concentración con nuestra Máquina Portátil de Ruido Blanco!<\/p>",
-        "button_label": "COMPRAR AHORA",
-        "button_link": "shopify:\/\/products\/maquina-de-ruido-blanco-portatil-luz-quitamiedos-infantil-funcion-de-bloqueo-de-botones-temporizador-16-sonidos-relajantes"
-      }
-    },
     "b483ad43-3082-454e-ba03-4b5301e2ebf8": {
       "type": "collection",
       "settings": {
@@ -43,7 +32,6 @@
   },
   "order": [
     "main",
-    "a620fb83-5350-4e8d-ad85-69b7d7ce7aa1",
     "b483ad43-3082-454e-ba03-4b5301e2ebf8",
     "article-comments",
     "article-back-to-blog"
