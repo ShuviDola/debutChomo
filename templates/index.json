@@ -86,79 +86,6 @@
         "show_vendor": false,
         "show_view_all": false
       }
-    },
-    "quotes": {
-      "type": "quotes",
-      "disabled": true,
-      "blocks": {
-        "quotes-0": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "quotes-1": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "quotes-2": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "quotes-0",
-        "quotes-1",
-        "quotes-2"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "image-bar": {
-      "type": "image-bar",
-      "disabled": true,
-      "blocks": {
-        "image-bar-0": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "image-bar-1": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "image-bar-2": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "image-bar-0",
-        "image-bar-1",
-        "image-bar-2"
-      ],
-      "settings": {
-        "section_height": "medium"
-      }
     }
   },
   "order": [
@@ -168,8 +95,6 @@
     "109428ce-f58e-466c-ae5b-851c32ce27d7",
     "collection",
     "75f62bdc-967d-447b-b4b5-efc5a31fcb16",
-    "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4",
-    "quotes",
-    "image-bar"
+    "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4"
   ]
 }
