@@ -3,14 +3,9 @@
     "main": {
       "type": "article-template",
       "settings": {
-        "blog_show_author": true,
-        "blog_show_date": true,
+        "blog_show_author": false,
+        "blog_show_date": false,
         "show_share_buttons": true
-      }
-    },
-    "article-comments": {
-      "type": "article-comments",
-      "settings": {
       }
     },
     "b483ad43-3082-454e-ba03-4b5301e2ebf8": {
@@ -24,6 +19,11 @@
         "show_view_all": false
       }
     },
+    "article-comments": {
+      "type": "article-comments",
+      "settings": {
+      }
+    },
     "article-back-to-blog": {
       "type": "article-back-to-blog",
       "settings": {
@@ -32,8 +32,8 @@
   },
   "order": [
     "main",
-    "article-comments",
     "b483ad43-3082-454e-ba03-4b5301e2ebf8",
+    "article-comments",
     "article-back-to-blog"
   ]
 }
