@@ -8,11 +8,16 @@
         "show_share_buttons": true
       }
     },
-    "b483ad43-3082-454e-ba03-4b5301e2ebf8": {
+    "article-back-to-blog": {
+      "type": "article-back-to-blog",
+      "settings": {
+      }
+    },
+    "99cc9ab5-b8c4-472c-b846-fc790729a180": {
       "type": "collection",
       "settings": {
-        "title": "NUESTROS PRODUCTOS DE RUIDO BLANCO",
-        "collection": "ruido-blanco",
+        "title": "Featured collection",
+        "collection": "productos-recomendados-para-dormir-mejor",
         "grid": 3,
         "rows": 2,
         "show_vendor": false,
@@ -23,17 +28,12 @@
       "type": "article-comments",
       "settings": {
       }
-    },
-    "article-back-to-blog": {
-      "type": "article-back-to-blog",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
-    "b483ad43-3082-454e-ba03-4b5301e2ebf8",
-    "article-comments",
-    "article-back-to-blog"
+    "article-back-to-blog",
+    "99cc9ab5-b8c4-472c-b846-fc790729a180",
+    "article-comments"
   ]
 }
