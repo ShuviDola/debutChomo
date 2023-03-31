@@ -7,21 +7,9 @@
         "blog_show_author": false,
         "blog_show_date": true
       }
-    },
-    "1162b832-85b8-48b4-b62c-f90ebd14e91d": {
-      "type": "collection",
-      "settings": {
-        "title": "NUESTROS PRODUCTOS DE RUIDO BLANCO",
-        "collection": "ruido-blanco",
-        "grid": 3,
-        "rows": 2,
-        "show_vendor": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
-    "main",
-    "1162b832-85b8-48b4-b62c-f90ebd14e91d"
+    "main"
   ]
 }
