@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "blog-template",
-      "disabled": true,
       "settings": {
         "layout": "list",
         "blog_show_author": false,
@@ -11,6 +10,7 @@
     },
     "df2309cf-2dae-419c-aec4-0ade96fb5cc7": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "title": "Ruido blanco",
         "blog": "ruido-blanco-para-bebes",
