@@ -1,18 +1,39 @@
 {
   "sections": {
     "main": {
-      "type": "article-template"
+      "type": "article-template",
+      "settings": {
+        "blog_show_author": true,
+        "blog_show_date": true,
+        "show_share_buttons": true
+      }
     },
     "article-comments": {
-      "type": "article-comments"
+      "type": "article-comments",
+      "settings": {
+      }
+    },
+    "b483ad43-3082-454e-ba03-4b5301e2ebf8": {
+      "type": "collection",
+      "settings": {
+        "title": "NUESTROS PRODUCTOS DE RUIDO BLANCO",
+        "collection": "ruido-blanco",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     },
     "article-back-to-blog": {
-      "type": "article-back-to-blog"
+      "type": "article-back-to-blog",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "article-comments",
+    "b483ad43-3082-454e-ba03-4b5301e2ebf8",
     "article-back-to-blog"
   ]
 }
