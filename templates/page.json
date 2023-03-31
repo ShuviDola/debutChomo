@@ -1,10 +1,24 @@
 {
   "sections": {
     "main": {
-      "type": "page-template"
+      "type": "page-template",
+      "settings": {
+      }
+    },
+    "7f0e32b6-4926-448d-aecc-2b7839b1cfcd": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "ruido-blanco",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7f0e32b6-4926-448d-aecc-2b7839b1cfcd"
   ]
 }
