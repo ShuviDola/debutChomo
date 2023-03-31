@@ -4,9 +4,21 @@
       "type": "page-template",
       "settings": {
       }
+    },
+    "0dcd6ccf-cc40-4daa-a7d4-3826dc54c15a": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "productos-recomendados-para-dormir-mejor",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "0dcd6ccf-cc40-4daa-a7d4-3826dc54c15a"
   ]
 }
