@@ -4,9 +4,21 @@
       "type": "page-template",
       "settings": {
       }
+    },
+    "b1a9f891-58dd-4e5d-829f-174d54f51568": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "relajacion-y-concentracion",
+        "grid": 4,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b1a9f891-58dd-4e5d-829f-174d54f51568"
   ]
 }
