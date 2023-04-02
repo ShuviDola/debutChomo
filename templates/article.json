@@ -8,6 +8,14 @@
         "show_share_buttons": true
       }
     },
+    "article-back-to-blog": {
+      "type": "article-back-to-blog",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
     "b483ad43-3082-454e-ba03-4b5301e2ebf8": {
       "type": "collection",
       "settings": {
@@ -23,17 +31,12 @@
       "type": "article-comments",
       "settings": {
       }
-    },
-    "article-back-to-blog": {
-      "type": "article-back-to-blog",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
+    "article-back-to-blog",
     "b483ad43-3082-454e-ba03-4b5301e2ebf8",
-    "article-comments",
-    "article-back-to-blog"
+    "article-comments"
   ]
 }
