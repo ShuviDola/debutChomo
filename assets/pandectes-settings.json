@@ -5,7 +5,7 @@
     "primaryLocale": "es",
     "adminMode": false
   },
-  "tsPublished": 1680458620,
+  "tsPublished": 1680458633,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -350,13 +350,197 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "secure_customer_sig",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "es": "Used in connection with customer login."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "es": "Shopify store localization"
+        }
+      },
+      {
+        "name": "cart_currency",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "es": "Used in connection with shopping cart."
+        }
+      },
+      {
+        "name": "_secure_session_id",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "24 hour(s)",
+        "purpose": {
+          "es": "Used in connection with navigation through a storefront."
+        }
+      },
+      {
+        "name": "keep_alive",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "es": "Used in connection with buyer localization."
+        }
+      },
+      {
+        "name": "shopify_pay_redirect",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "60 minute(s)",
+        "purpose": {
+          "es": "Used in connection with checkout."
+        }
+      }
     ],
     "1": [
-
+      {
+        "name": "locale_bar_accepted",
+        "domain": "www.dormirfeliz.com",
+        "path": "\/",
+        "provider": "GrizzlyAppsSRL",
+        "firstParty": true,
+        "retention": "Session",
+        "purpose": {
+          "es": "This cookie is provided by the app (BEST Currency Converter) and is used to secure the currency chosen by the customer."
+        }
+      }
     ],
     "2": [
-
+      {
+        "name": "_y",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "es": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_s",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "es": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_y",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "es": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "es": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "es": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "es": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "es": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_ga_6FVL7CF5KP",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "es": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      },
+      {
+        "name": "_ga",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "es": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".dormirfeliz.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "es": "Shopify analytics relating to marketing & referrals."
+        }
+      }
     ],
     "4": [
 
