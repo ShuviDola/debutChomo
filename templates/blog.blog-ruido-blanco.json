@@ -13,8 +13,8 @@
       "settings": {
         "title": "NUESTROS PRODUCTOS DE RUIDO BLANCO",
         "collection": "ruido-blanco",
-        "grid": 3,
-        "rows": 2,
+        "grid": 4,
+        "rows": 1,
         "show_vendor": false,
         "show_view_all": false
       }
