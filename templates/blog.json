@@ -7,9 +7,21 @@
         "blog_show_author": false,
         "blog_show_date": true
       }
+    },
+    "1c051430-3d49-42c9-ab46-ffbde6eb82eb": {
+      "type": "collection",
+      "settings": {
+        "title": "PRODUCTOS RECOMENDADOS PARA DORMIR MEJOR",
+        "collection": "productos-recomendados-para-dormir-mejor",
+        "grid": 4,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1c051430-3d49-42c9-ab46-ffbde6eb82eb"
   ]
 }
