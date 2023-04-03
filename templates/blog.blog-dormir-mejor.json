@@ -13,8 +13,8 @@
       "settings": {
         "title": "PRODUCTOS RECOMENDADOS PARA DORMIR MEJOR",
         "collection": "productos-recomendados-para-dormir-mejor",
-        "grid": 4,
-        "rows": 1,
+        "grid": 5,
+        "rows": 2,
         "show_vendor": false,
         "show_view_all": false
       }
