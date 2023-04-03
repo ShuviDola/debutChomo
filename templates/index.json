@@ -81,7 +81,7 @@
       "settings": {
         "title": "PRODUCTOS DE Humidificadores de aromaterapia",
         "collection": "humidificadores-de-aromaterapia",
-        "grid": 2,
+        "grid": 3,
         "rows": 5,
         "show_vendor": false,
         "show_view_all": false
