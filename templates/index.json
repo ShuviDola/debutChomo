@@ -100,6 +100,17 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "72deab20-1b60-475c-abea-d90a4e6c4835": {
+      "type": "collection",
+      "settings": {
+        "title": "Productos Esenciales para Dormir",
+        "collection": "esenciales-para-dormir",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -110,6 +121,7 @@
     "collection",
     "75f62bdc-967d-447b-b4b5-efc5a31fcb16",
     "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4",
-    "ef696a49-16bb-45e4-a0ca-e6861e093018"
+    "ef696a49-16bb-45e4-a0ca-e6861e093018",
+    "72deab20-1b60-475c-abea-d90a4e6c4835"
   ]
 }
