@@ -285,7 +285,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
           var request = new XMLHttpRequest();
           request.open('POST', '/admin/api/2021-09/customers.json', true);
           request.setRequestHeader('Content-Type', 'application/json');
-          request.setRequestHeader('X-Shopify-Access-Token', '{{ shopify_api_key }}');
+          request.setRequestHeader('X-Shopify-Access-Token', '408d03729ff00c366a414529227f1860');
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 201) {
