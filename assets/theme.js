@@ -32,7 +32,7 @@ theme.Sections = function Sections() {
     this._onBlockDeselect.bind(this)
   );
 
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('submit', function(event) {
     if (event.target.getAttribute('data-form-type') == 'product_notification') {
       event.preventDefault();
@@ -41,11 +41,11 @@ theme.Sections = function Sections() {
       var customerData = {
         "customer": {
           "email": email,
-          "tags": "Notificar " + productId
+          "tags": "Producto solicitado " + productId
         }
       };
       var request = new XMLHttpRequest();
-      request.open('POST', '/admin/customers.json', true);
+      request.open('POST', '/admin/api/2021-09/customers.json', true);
       request.setRequestHeader('Content-Type', 'application/json');
       request.setRequestHeader('X-Shopify-Access-Token', '{{ shopify_api_key }}');
       request.onreadystatechange = function() {
@@ -64,6 +64,7 @@ theme.Sections = function Sections() {
     }
   });
 });
+
 
   
   
