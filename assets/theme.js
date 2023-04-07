@@ -41,7 +41,7 @@ theme.Sections = function Sections() {
       var customerData = {
         "customer": {
           "email": email,
-          "tags": "Producto solicitado"
+          "tags": "Notificar " + productId
         }
       };
       var request = new XMLHttpRequest();
