@@ -270,6 +270,7 @@
           <script>
     document.addEventListener('DOMContentLoaded', function() {
       document.addEventListener('submit', function(event) {
+            event.preventDefault();
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
           event.preventDefault();
           var productId = event.target.getAttribute('data-product-id');
