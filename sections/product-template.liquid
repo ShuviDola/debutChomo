@@ -250,7 +250,7 @@
         {% comment %} <Chomo code> {% endcomment %}
 
         
-                {% if product.available == false %}
+{% if product.available == false %}
   <div class="notify-form">
     <h3>Notificarme cuando esté disponible</h3>
     <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8">
@@ -260,11 +260,18 @@
       <input type="hidden" name="contact[subject]" value="Notificarme cuando esté disponible">
       <input type="hidden" name="contact[product]" value="{{ product.title }}">
       <input type="hidden" name="contact[body]" value="Por favor, notifíqueme cuando el producto '{{ product.title }}' esté disponible de nuevo.">
-      <input type="email" name="contact[email]" id="contact_email" placeholder="Tu correo electrónico" required>
-      <button type="submit">Enviar</button>
+      <div class="input-group">
+        <input type="email" name="contact[email]" id="ContactFooter-email" class="input-group__field newsletter__input" value="" placeholder="Tu correo electrónico" aria-label="Tu correo electrónico" aria-required="true" required="" autocorrect="off" autocapitalize="off">
+        <span class="input-group__btn">
+          <button type="submit" class="btn newsletter__submit" name="commit">
+            <span class="newsletter__submit-text--large">Enviar</span>
+          </button>
+        </span>
+      </div>
     </form>
   </div>
 {% endif %}
+
 
         {% comment %} </Chomo code> {% endcomment %}
 
