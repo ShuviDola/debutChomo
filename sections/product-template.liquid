@@ -270,11 +270,12 @@
           <script>
     document.addEventListener('DOMContentLoaded', function() {
       document.addEventListener('submit', function(event) {
+        debugger
             event.preventDefault();
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
           event.preventDefault();
           var productId = event.target.getAttribute('data-product-id');
-          var email = event.target.contact_email.value;
+var email = event.target.querySelector('input[name="contact[email]"]').value;
           var customerData = {
             "customer": {
               "email": email,
