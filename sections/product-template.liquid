@@ -245,9 +245,11 @@
                       {{ form | payment_button }}
                     {% endif %}
                   </div>
-                </div>
+                </div>  
+        
+              {% endform %}
 
-        {% comment %} <Chomo code> {% endcomment %}
+                {% comment %} <Chomo code> {% endcomment %}
 
 {% if product.available == false %}
   <div class="notify-form">
@@ -272,10 +274,7 @@
 
 
         {% comment %} </Chomo code> {% endcomment %}
-
         
-        
-              {% endform %}
             {%- when 'description' -%}
               <div class="product-single__description rte">
                 {{ product.description }}
