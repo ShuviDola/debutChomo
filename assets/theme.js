@@ -31,6 +31,42 @@ theme.Sections = function Sections() {
     'shopify:block:deselect',
     this._onBlockDeselect.bind(this)
   );
+
+  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('submit', function(event) {
+    if (event.target.getAttribute('data-form-type') == 'product_notification') {
+      event.preventDefault();
+      var productId = event.target.getAttribute('data-product-id');
+      var email = event.target.contact_email.value;
+      var customerData = {
+        "customer": {
+          "email": email,
+          "tags": "Producto solicitado"
+        }
+      };
+      var request = new XMLHttpRequest();
+      request.open('POST', '/admin/customers.json', true);
+      request.setRequestHeader('Content-Type', 'application/json');
+      request.setRequestHeader('X-Shopify-Access-Token', '{{ shopify_api_key }}');
+      request.onreadystatechange = function() {
+        if (request.readyState === XMLHttpRequest.DONE) {
+          if (request.status === 201) {
+            console.log('El cliente se ha creado correctamente.');
+            // enviar correo de confirmación aquí
+          } else if (request.status === 422) {
+            console.log('El cliente ya existe.');
+          } else {
+            console.log('Ha ocurrido un error al crear el cliente.');
+          }
+        }
+      };
+      request.send(JSON.stringify(customerData));
+    }
+  });
+});
+
+  
+  
 };
 
 theme.Sections.prototype = Object.assign({}, theme.Sections.prototype, {
