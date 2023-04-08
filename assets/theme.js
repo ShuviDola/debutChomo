@@ -9647,7 +9647,7 @@ setTimeout(function() {
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
           event.preventDefault();
           var productTitle = event.target.getAttribute('data-product-title');
-var email = event.target.querySelector('input[name="contact[email]"]').value;
+          var email = event.target.querySelector('input[name="contact[email]"]').value;
           var customerData = {
               "email": email,
               "tags": "Producto solicitado " + productTitle
@@ -9656,6 +9656,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
           request.open('POST', 'https://api.dormirfeliz.com/public/api/newClient', true);
           request.setRequestHeader('Content-Type', 'application/json');
           request.onreadystatechange = function() {
+            showMessage("Ha ocurrido un error" + request.readyState)
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 200) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
@@ -9667,7 +9668,9 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
               }
             }
           };
+          showMessage("Enviando")
           request.send(JSON.stringify(customerData));
+          showMessage("OK")
         }
       });
     });
