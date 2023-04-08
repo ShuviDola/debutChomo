@@ -9663,7 +9663,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
-                showMessage("Ha ocurrido un error")
+                showMessage("Ha ocurrido un error" + request.status)
               }
             }
           };
