@@ -9622,6 +9622,8 @@ function onYouTubeIframeAPIReady() {
   theme.Video.loadVideos();
 }
 
+//<Chomo code>
+
     document.addEventListener('DOMContentLoaded', function() {
       document.addEventListener('submit', function(event) {
             event.preventDefault();
@@ -9653,7 +9655,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
       });
     });
 
-
+//</Chomo code>
 
 
 
