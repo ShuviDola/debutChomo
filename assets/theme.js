@@ -9624,6 +9624,23 @@ function onYouTubeIframeAPIReady() {
 
 //<Chomo code>
 
+function showMessage(message){
+
+  const successMessage = document.createElement('div');
+successMessage.className = 'flash-message success';
+successMessage.textContent = message;
+
+const notifyForm = document.querySelector('.notify-form');
+notifyForm.insertAdjacentElement('afterend', successMessage);
+
+setTimeout(function() {
+  successMessage.remove();
+}, 5000);
+
+
+  
+}
+
     document.addEventListener('DOMContentLoaded', function() {
       document.addEventListener('submit', function(event) {
             event.preventDefault();
@@ -9642,7 +9659,6 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 201) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
-                // enviar correo de confirmación aquí
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
@@ -9655,22 +9671,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
       });
     });
 
-function showMessage(message){
 
-  const successMessage = document.createElement('div');
-successMessage.className = 'flash-message success';
-successMessage.textContent = message;
-
-const notifyForm = document.querySelector('.notify-form');
-notifyForm.insertAdjacentElement('afterend', successMessage);
-
-setTimeout(function() {
-  successMessage.remove();
-}, 5000);
-
-
-  
-}
 
 //</Chomo code>
 
