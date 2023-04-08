@@ -293,22 +293,31 @@
         </li>
       {% endfor %}
     </ul>
+    {% assign reviews_exist = true %}
+    {% assign average_rating = product.metafields.product_reviews.average_rating | round %}
+    {% unless product.metafields.product_reviews.reviews %}
+      {% assign reviews_exist = false %}
+      {% assign average_rating = 0 %}
+    {% endunless %}
     <div class="product-rating">
       <div class="rating-stars">
         {% for i in (1..5) %}
-          {% if i <= product.metafields.product_reviews.average_rating %}
+          {% if i <= average_rating %}
             <span class="star active"></span>
           {% else %}
             <span class="star"></span>
           {% endif %}
         {% endfor %}
       </div>
-      <div class="rating-value">
-        {{ product.metafields.product_reviews.average_rating }} / 5
-      </div>
+      {% if reviews_exist %}
+        <div class="rating-value">
+          {{ average_rating }} / 5
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endif %}
+
 
 
 
