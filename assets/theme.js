@@ -9645,30 +9645,33 @@ setTimeout(function() {
       document.addEventListener('submit', function(event) {
             event.preventDefault();
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
-          event.preventDefault();
-          var productTitle = event.target.getAttribute('data-product-title');
-          var email = event.target.querySelector('input[name="contact[email]"]').value;
-          var customerData = {
-              "email": email,
-              "tags": "Producto solicitado " + productTitle
-          };
-          var request = new XMLHttpRequest();
-          request.open('POST', 'https://api.dormirfeliz.com/public/api/newClient', true);
-          request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-          request.onreadystatechange = function() {
-            if (request.readyState === XMLHttpRequest.DONE) {
-               showMessage(request.response)
-              if (request.status === 200) {
-                showMessage("¡Te has suscrito con éxito a nuestro boletín!")
-                document.getElementById('Notify-email').value = '';
-              } else if (request.status === 422) {
-                showMessage("¡Ya estabas suscrito!")
-              } else {
-                showMessage("Ha ocurrido un error2")
-              }
-            }
-          };
-          request.send(JSON.stringify(customerData));
+var productTitle = event.target.getAttribute('data-product-title');
+var email = event.target.querySelector('input[name="contact[email]"]').value;
+var customerData = {
+  "email": email,
+  "tags": "Producto solicitado " + productTitle
+};
+
+fetch('https://api.dormirfeliz.com/public/api/newClient', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json;charset=UTF-8'
+  },
+  body: JSON.stringify(customerData)
+})
+.then(function(response) {
+  if (response.ok) {
+    showMessage("¡Te has suscrito con éxito a nuestro boletín!")
+    document.getElementById('Notify-email').value = '';
+  } else if (response.status === 422) {
+    showMessage("¡Ya estabas suscrito!")
+  } else {
+    showMessage("Ha ocurrido un error2")
+  }
+})
+.catch(function(error) {
+  showMessage("Ha ocurrido un error: " + error.message)
+});
         }
       });
     });
