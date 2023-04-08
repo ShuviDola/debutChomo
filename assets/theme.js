@@ -9659,7 +9659,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 200) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
-                $('#Notify-email').val('');
+                document.getElementById('Notify-email').value = '';
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
