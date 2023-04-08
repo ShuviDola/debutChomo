@@ -59,11 +59,6 @@
       "settings": {
       }
     },
-    "168098469381e070e3": {
-      "type": "apps",
-      "settings": {
-      }
-    },
     "16809851480c9e86b2": {
       "type": "apps",
       "blocks": {
@@ -89,7 +84,6 @@
     "main",
     "product-recommendations",
     "product-back-to-collection",
-    "168098469381e070e3",
     "16809851480c9e86b2"
   ]
 }
