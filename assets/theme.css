@@ -6980,35 +6980,9 @@ hr {
   margin-bottom: 0; }
 
 
-.star-rating {
-  display: flex;
-  font-size: 24px;
-  justify-content: center;
-  position: relative;
-}
+#judgeme_product_reviews{
 
-.star-rating::before {
-  content: '★★★★★';
-  letter-spacing: 3px;
-}
-
-.star-rating::after {
-  content: '★★★★★';
-  letter-spacing: 3px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  width: var(--rating);
-  white-space: nowrap;
-}
-
-.star-rating span {
-  color: #f8ce0b;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  white-space: nowrap;
+    width: 1200px;
+    margin: auto;
 }
 
