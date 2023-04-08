@@ -9662,7 +9662,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
-                console.log('Ha ocurrido un error al crear el cliente.');
+                showMessage("Ha ocurrido un error")
               }
             }
           };
