@@ -9646,11 +9646,11 @@ setTimeout(function() {
             event.preventDefault();
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
           event.preventDefault();
-          var productId = event.target.getAttribute('data-product-id');
+          var productTitle = event.target.getAttribute('data-product-title');
 var email = event.target.querySelector('input[name="contact[email]"]').value;
           var customerData = {
               "email": email,
-              "tags": "Producto solicitado " + productId
+              "tags": "Producto solicitado " + productTitle
           };
           var request = new XMLHttpRequest();
           request.open('POST', 'https://api.dormirfeliz.com/public/api/newClient', true);
