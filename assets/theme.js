@@ -9641,22 +9641,10 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 201) {
-
-                const successMessage = document.createElement('div');
-successMessage.className = 'flash-message success';
-successMessage.textContent = '¡Te notificaremos cuando este producto esté disponible!';
-
-const notifyForm = document.querySelector('.notify-form');
-notifyForm.insertAdjacentElement('afterend', successMessage);
-
-setTimeout(function() {
-  successMessage.remove();
-}, 5000);
-
-                
+                showMessage("¡Te has suscrito con éxito a nuestro boletín!")
                 // enviar correo de confirmación aquí
               } else if (request.status === 422) {
-                console.log('El cliente ya existe.');
+                showMessage("¡Ya estabas suscrito!")
               } else {
                 console.log('Ha ocurrido un error al crear el cliente.');
               }
@@ -9666,6 +9654,23 @@ setTimeout(function() {
         }
       });
     });
+
+function showMessage(message){
+
+  const successMessage = document.createElement('div');
+successMessage.className = 'flash-message success';
+successMessage.textContent = message;
+
+const notifyForm = document.querySelector('.notify-form');
+notifyForm.insertAdjacentElement('afterend', successMessage);
+
+setTimeout(function() {
+  successMessage.remove();
+}, 5000);
+
+
+  
+}
 
 //</Chomo code>
 
