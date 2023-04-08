@@ -9657,7 +9657,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
           request.setRequestHeader('Content-Type', 'application/json');
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
-              if (request.status === 201) {
+              if (request.status === 200) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
