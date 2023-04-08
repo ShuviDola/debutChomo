@@ -6990,7 +6990,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 749px)
+@media only screen and (max-width: 749px){
   #judgeme_product_reviews{
 
       max-width: 1200px;
@@ -6998,6 +6998,6 @@ hr {
       padding-left: 22px;
       padding-right: 22px;
   }
-
+}
 
 /*Chomo code */
