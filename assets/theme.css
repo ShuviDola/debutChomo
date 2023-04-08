@@ -6979,12 +6979,15 @@ hr {
 .store-availability-list__phone {
   margin-bottom: 0; }
 
-
-#judgeme_product_reviews{
-
-    width: 1200px;
-    margin: auto;
-    padding-left: 55px;
-    padding-right: 55px;
+/* Chomo code */
+@media screen and (min-width: 768px) {
+  #judgeme_product_reviews{
+  
+      width: 1200px;
+      margin: auto;
+      padding-left: 55px;
+      padding-right: 55px;
+  }
 }
 
+/*Chomo code */
