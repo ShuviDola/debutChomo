@@ -9665,8 +9665,6 @@ function showMessage(message){
       });
     });
 
-
-
 //</Chomo code>
 
 
