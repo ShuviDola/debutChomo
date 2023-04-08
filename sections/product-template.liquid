@@ -269,11 +269,11 @@
 {% endif %}
 
 
-{% if product.metafields.product_reviewsffff %}
+{% if product.metafields.global.product_reviews %}
   <div class="product-reviews">
-    <h2>Reseñas de productdos</h2>
+    <h2>Reseñas de productos</h2>
     <ul class="review-list">
-      {% for review in product.metafields.product_reviews.reviews %}
+      {% for review in product.metafields.global.product_reviews.reviews %}
         <li class="review-item">
           <div class="review-header">
             <span class="review-author">{{ review.author }}</span>
@@ -294,34 +294,28 @@
         </li>
       {% endfor %}
     </ul>
-    {% assign reviews_exist = true %}
-    {% assign average_rating = product.metafields.product_reviews.average_rating | round %}
-    {% unless product.metafields.product_reviews.reviews %}
-      {% assign reviews_exist = false %}
-      {% assign average_rating = 0 %}
-    {% endunless %}
     <div class="product-rating">
       <div class="rating-stars">
+        {% assign total_rating = 0 %}
+        {% for review in product.metafields.global.product_reviews.reviews %}
+          {% assign total_rating = total_rating | plus: review.rating %}
+        {% endfor %}
+        {% assign average_rating = total_rating | divided_by: product.metafields.global.product_reviews.reviews.size | round %}
         {% for i in (1..5) %}
-          {% if reviews_exist %}
-            {% if i <= average_rating %}
-              <span class="star active"></span>
-            {% else %}
-              <span class="star"></span>
-            {% endif %}
+          {% if i <= average_rating %}
+            <span class="star active"></span>
           {% else %}
             <span class="star"></span>
           {% endif %}
         {% endfor %}
       </div>
-      {% if reviews_exist %}
-        <div class="rating-value">
-          {{ average_rating }} / 5
-        </div>
-      {% endif %}
+      <div class="rating-value">
+        {{ average_rating }} / 5
+      </div>
     </div>
   </div>
 {% endif %}
+
 
 
 
