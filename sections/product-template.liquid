@@ -253,7 +253,7 @@
 
 {% if product.available == false %}
   <div class="notify-form">
-    <form id="product-notification-form" data-product-id="{{ product.id }}" data-form-type="product_notification" accept-charset="UTF-8" class="contact-form" novalidate="novalidate">
+    <form id="product-notification-form" data-product-title="{{ product.title }}" data-product-id="{{ product.id }}" data-form-type="product_notification" accept-charset="UTF-8" class="contact-form" novalidate="novalidate">
       <input type="hidden" name="form_type" value="product_notification">
       <input type="hidden" name="utf8" value="✓">
       <div class="input-group">
