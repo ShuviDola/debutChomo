@@ -9652,7 +9652,7 @@ var customerData = {
   "tags": "Producto solicitado " + productTitle
 };
 
-fetch('https://api.dormirfeliz.com/public/api/newClient', {
+fetch('http://api.dormirfeliz.com/public/api/newClient', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json;charset=UTF-8'
@@ -9670,7 +9670,7 @@ fetch('https://api.dormirfeliz.com/public/api/newClient', {
   }
 })
 .catch(function(error) {
-  showMessage("Ha ocurrido un error: " + error.message)
+  showMessage("Ha ocurrido un err2or: " + error.message)
 });
         }
       });
