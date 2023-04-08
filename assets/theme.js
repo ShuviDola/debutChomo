@@ -9656,21 +9656,19 @@ setTimeout(function() {
           request.open('POST', 'https://api.dormirfeliz.com/public/api/newClient', true);
           request.setRequestHeader('Content-Type', 'application/json');
           request.onreadystatechange = function() {
-            showMessage("Ha ocurrido un error" + request.readyState)
             if (request.readyState === XMLHttpRequest.DONE) {
+               showMessage(request.response)
               if (request.status === 200) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
                 document.getElementById('Notify-email').value = '';
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
-                showMessage("Ha ocurrido un error" + request.status)
+                showMessage("Ha ocurrido un error")
               }
             }
           };
-          showMessage("Enviando")
           request.send(JSON.stringify(customerData));
-          showMessage("OK")
         }
       });
     });
