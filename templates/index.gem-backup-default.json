@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feature-row": {
+      "type": "feature-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1.jpg",
+        "layout": "left",
+        "title": "Humidificador Nube de Lluvia",
+        "text": "<p>Humidificador que simula el sonido de la lluvia<\/p>",
+        "button_label": "COMPRAR",
+        "button_link": "shopify:\/\/products\/humidificador-nube-de-lluvia"
+      }
+    },
+    "hero-2": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-aleksandr-slobodianyk-989959.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Ruido blanco",
+        "text": "<p>El ruido blanco es esa mezcla de sonidos que ayuda a neutralizar los ruidos molestos y te permite descansar mejor. Además, te ayuda a concentrarte y ser más productivo en el trabajo.<\/p>",
+        "button_label": "MÁS INFORMACIÓN",
+        "button_link": ""
+      }
+    },
+    "9e28ef57-4e58-4057-b684-1428102c86cf": {
+      "type": "collection",
+      "settings": {
+        "title": "Productos DE Ruido blanco",
+        "collection": "ruido-blanco",
+        "grid": 4,
+        "rows": 5,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "109428ce-f58e-466c-ae5b-851c32ce27d7": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/light-gb1de935ef_1280.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Humidificador",
+        "text": "<p>Sube la humedad en tu espacio y mejora tu salud, alivia la sequedad y protege tus muebles y suelos de madera.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "title": "PRODUCTOS DE Humidificadores de agua",
+        "collection": "humidificadores-de-agua",
+        "grid": 3,
+        "rows": 5,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "75f62bdc-967d-447b-b4b5-efc5a31fcb16": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-mareefe-932577.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Aromaterapia",
+        "text": "<p>La aromaterapia utiliza aceites esenciales para darte una sensación de bienestar físico y emocional. Relájate, recarga energías y disfruta de sus propiedades curativas.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4": {
+      "type": "collection",
+      "settings": {
+        "title": "PRODUCTOS DE Humidificadores de aromaterapia",
+        "collection": "humidificadores-de-aromaterapia",
+        "grid": 3,
+        "rows": 5,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "ef696a49-16bb-45e4-a0ca-e6861e093018": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-polina-kovaleva-6541429.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "medium",
+        "title": "Esenciales para Dormir",
+        "text": "<p>Como antifaces y tapones para los oídos. Bloquea la luz y el ruido para un sueño tranquilo e ininterrumpido.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "72deab20-1b60-475c-abea-d90a4e6c4835": {
+      "type": "collection",
+      "settings": {
+        "title": "Productos Esenciales para Dormir",
+        "collection": "esenciales-para-dormir",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "feature-row",
+    "hero-2",
+    "9e28ef57-4e58-4057-b684-1428102c86cf",
+    "109428ce-f58e-466c-ae5b-851c32ce27d7",
+    "collection",
+    "75f62bdc-967d-447b-b4b5-efc5a31fcb16",
+    "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4",
+    "ef696a49-16bb-45e4-a0ca-e6861e093018",
+    "72deab20-1b60-475c-abea-d90a4e6c4835"
+  ]
+}
