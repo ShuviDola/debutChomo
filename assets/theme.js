@@ -9641,7 +9641,19 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 201) {
-                console.log('El cliente se ha creado correctamente.');
+
+                const successMessage = document.createElement('div');
+successMessage.className = 'flash-message success';
+successMessage.textContent = '¡Te notificaremos cuando este producto esté disponible!';
+
+const notifyForm = document.querySelector('.notify-form');
+notifyForm.insertAdjacentElement('afterend', successMessage);
+
+setTimeout(function() {
+  successMessage.remove();
+}, 5000);
+
+                
                 // enviar correo de confirmación aquí
               } else if (request.status === 422) {
                 console.log('El cliente ya existe.');
