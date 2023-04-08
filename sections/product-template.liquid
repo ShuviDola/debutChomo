@@ -268,62 +268,6 @@
   </div>
 {% endif %}
 
-        {% if product.metafields.custom.prueba %}
-  <p>{{ product.metafields.custom.prueba }}</p>
-{% endif %}
-
-{% if product.metafields.custom.review %}
-  <div class="product-reviews">
-    <h2>Reseñas de productos</h2>
-    <ul class="review-list">
-      {% for review in product.metafields.custom.review.reviews %}
-        <li class="review-item">
-          <div class="review-header">
-            <span class="review-author">{{ review.author }}</span>
-            <span class="review-date">{{ review.date }}</span>
-          </div>
-          <div class="review-body">
-            <p>{{ review.body }}</p>
-            <div class="review-rating">
-              {% for i in (1..5) %}
-                {% if i <= review.rating %}
-                  <span class="star active"></span>
-                {% else %}
-                  <span class="star"></span>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-    <div class="product-rating">
-      <div class="rating-stars">
-        {% assign total_rating = 0 %}
-        {% for review in product.metafields.custom.review.reviews %}
-          {% assign total_rating = total_rating | plus: review.rating %}
-        {% endfor %}
-        {% assign average_rating = total_rating | divided_by: product.metafields.custom.review.reviews.size | round %}
-        {% for i in (1..5) %}
-          {% if i <= average_rating %}
-            <span class="star active"></span>
-          {% else %}
-            <span class="star"></span>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="rating-value">
-        {{ average_rating }} / 5
-      </div>
-    </div>
-  </div>
-{% endif %}
-
-
-
-
-
-
         {% comment %} </Chomo code> {% endcomment %}
         
             {%- when 'description' -%}
