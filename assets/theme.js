@@ -9632,7 +9632,8 @@ successMessage.textContent = message;
 
 const notifyForm = document.querySelector('.notify-form');
 notifyForm.insertAdjacentElement('afterend', successMessage);
-
+document.getElementById('Notify-email').value = '';
+  
 setTimeout(function() {
   successMessage.remove();
 }, 10000 );
@@ -9659,7 +9660,6 @@ setTimeout(function() {
                showMessage(request.response)
               if (request.status === 200) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
-                document.getElementById('Notify-email').value = '';
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
