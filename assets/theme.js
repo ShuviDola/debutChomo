@@ -9633,7 +9633,8 @@ successMessage.textContent = message;
 const notifyForm = document.querySelector('.notify-form');
 notifyForm.insertAdjacentElement('afterend', successMessage);
 document.getElementById('Notify-email').value = '';
-  
+var inputGroup = document.querySelector('.input-group');
+inputGroup.style.display = 'none';  
 setTimeout(function() {
   successMessage.remove();
 }, 10000 );
