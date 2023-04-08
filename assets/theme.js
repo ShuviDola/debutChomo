@@ -9625,22 +9625,15 @@ function onYouTubeIframeAPIReady() {
 //<Chomo code>
 
 function showMessage(message){
-
   const successMessage = document.createElement('div');
-successMessage.className = 'flash-message success';
-successMessage.textContent = message;
+  successMessage.className = 'flash-message success';
+  successMessage.textContent = message;
 
-const notifyForm = document.querySelector('.notify-form');
-notifyForm.insertAdjacentElement('afterend', successMessage);
-document.getElementById('Notify-email').value = '';
-var inputGroup = document.querySelector('.input-group');
-inputGroup.style.display = 'none';  
-setTimeout(function() {
-  successMessage.remove();
-}, 10000 );
-
-
-  
+  const notifyForm = document.querySelector('.notify-form');
+  notifyForm.insertAdjacentElement('afterend', successMessage);
+  document.getElementById('Notify-email').value = '';
+  var inputGroup = document.querySelector('.input-group');
+  inputGroup.style.display = 'none';  
 }
 
     document.addEventListener('DOMContentLoaded', function() {
