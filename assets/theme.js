@@ -9658,7 +9658,6 @@ setTimeout(function() {
           request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
-               showMessage(request.response)
               if (request.status === 200) {
                 showMessage("¡Te has suscrito con éxito a nuestro boletín!")
               } else if (request.status === 422) {
