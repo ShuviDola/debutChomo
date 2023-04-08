@@ -9659,7 +9659,7 @@ function showMessage(message){
               } else if (request.status === 422) {
                 showMessage("¡Ya estabas suscrito!")
               } else {
-                showMessage("Ha ocurrido2 un error")
+                showMessage("Ha ocurrido un error")
               }
             }
           };
