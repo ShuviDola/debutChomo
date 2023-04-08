@@ -9642,6 +9642,9 @@ function showMessage(message){
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
           var productTitle = event.target.getAttribute('data-product-title');
           var email = event.target.querySelector('input[name="contact[email]"]').value;
+          if(!email){
+            return;
+          }
           var customerData = {
               "email": email,
               "tags": "Producto solicitado " + productTitle
