@@ -280,7 +280,7 @@ var email = event.target.querySelector('input[name="contact[email]"]').value;
               "tags": "Producto solicitado " + productId
           };
           var request = new XMLHttpRequest();
-          request.open('POST', 'api.dormirfeliz.com/public/api/newClient', true);
+          request.open('POST', 'https://www.api.dormirfeliz.com/public/api/newClient', true);
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 201) {
