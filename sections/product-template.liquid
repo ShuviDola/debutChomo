@@ -268,9 +268,10 @@
   </div>
 {% endif %}
 
+
 {% if product.metafields.product_reviews %}
   <div class="product-reviews">
-    <h2>Reseñas de productos</h2>
+    <h2>Reseñas de productwos</h2>
     <ul class="review-list">
       {% for review in product.metafields.product_reviews.reviews %}
         <li class="review-item">
@@ -302,8 +303,12 @@
     <div class="product-rating">
       <div class="rating-stars">
         {% for i in (1..5) %}
-          {% if i <= average_rating %}
-            <span class="star active"></span>
+          {% if reviews_exist %}
+            {% if i <= average_rating %}
+              <span class="star active"></span>
+            {% else %}
+              <span class="star"></span>
+            {% endif %}
           {% else %}
             <span class="star"></span>
           {% endif %}
