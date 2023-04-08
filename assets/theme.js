@@ -9635,7 +9635,7 @@ notifyForm.insertAdjacentElement('afterend', successMessage);
 
 setTimeout(function() {
   successMessage.remove();
-}, 5000);
+}, 10000 );
 
 
   
