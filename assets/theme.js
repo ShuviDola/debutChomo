@@ -9655,6 +9655,7 @@ setTimeout(function() {
           var request = new XMLHttpRequest();
           request.open('POST', 'https://api.dormirfeliz.com/public/api/newClient', true);
           request.setRequestHeader('Content-Type', 'application/json');
+          request.setRequestHeader('User-Agent', 'Mozilla/5.0 (Android 10; Mobile; rv:92.0) Gecko/92.0 Firefox/92.0');
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
                showMessage(request.response)
