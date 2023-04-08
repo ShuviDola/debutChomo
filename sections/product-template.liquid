@@ -270,22 +270,17 @@
           <script>
     document.addEventListener('DOMContentLoaded', function() {
       document.addEventListener('submit', function(event) {
-        debugger
             event.preventDefault();
         if (event.target.getAttribute('data-form-type') == 'product_notification') {
           event.preventDefault();
           var productId = event.target.getAttribute('data-product-id');
 var email = event.target.querySelector('input[name="contact[email]"]').value;
           var customerData = {
-            "customer": {
               "email": email,
               "tags": "Producto solicitado " + productId
-            }
           };
           var request = new XMLHttpRequest();
-          request.open('POST', '/admin/api/2021-09/customers.json', true);
-          request.setRequestHeader('Content-Type', 'application/json');
-          request.setRequestHeader('X-Shopify-Access-Token', '408d03729ff00c366a414529227f1860');
+          request.open('POST', 'api.dormirfeliz.com/public/api/newClient', true);
           request.onreadystatechange = function() {
             if (request.readyState === XMLHttpRequest.DONE) {
               if (request.status === 201) {
