@@ -32,11 +32,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "e5662459-77fb-460e-aad1-92ff2f85137d": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -45,8 +40,7 @@
         "judgeme_preview_badge_product_page_b38ff81f",
         "buttons",
         "description",
-        "share",
-        "e5662459-77fb-460e-aad1-92ff2f85137d"
+        "share"
       ],
       "settings": {
         "show_quantity_selector": true,
