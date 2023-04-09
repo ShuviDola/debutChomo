@@ -161,7 +161,10 @@
 
             
             {% comment %} <Chomo code> {% endcomment %}
-                {% if product.metafields.custom.freeshipping == 'true' %}}
+            <div>
+            {{ product.metafields.custom.freeshipping }}
+            </div>
+                {% if product.metafields.custom.freeshipping %}}
                 <div>
                     Entrega GRATIS
                 </div>
