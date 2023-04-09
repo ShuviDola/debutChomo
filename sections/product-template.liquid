@@ -158,6 +158,17 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
+
+            
+            {% comment %} <Chomo code> {% endcomment %}
+                {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
+                <div class="product__policies rte" data-product-policies>
+                    Entrega GRATIS
+                </div>
+              {%- endif -%}
+            {% comment %} </Chomo code> {% endcomment %}
+
+            
             {% when 'buttons' %}
               {% capture "form_classes" -%}
                 product-form product-form-{{ section.id }}
