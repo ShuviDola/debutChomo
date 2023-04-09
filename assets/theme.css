@@ -7000,4 +7000,8 @@ hr {
   }
 }
 
+.freeShipping {
+  margin: 0.4rem 0 1em 0;
+  font-size: calc(((var(--font-size-base) - 1) / (var(--font-size-base))) * 1em); }
+
 /*Chomo code */
