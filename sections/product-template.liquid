@@ -162,8 +162,8 @@
 
             {% comment %} <Chomo code> {% endcomment %}
                 {% if product.metafields.custom.freeshipping %}
-                <a href="https://tupagina.com" target="_blank">
-                  <div class="freeShipping">
+                <a href="{{ shop.shipping_policy.url }}" target="_blank">
+                  <div class="freeShipping product__policies rte">
                     Entrega GRATIS (24-48 Horas)
                   </div>
                 </a>
