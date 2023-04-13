@@ -55,20 +55,7 @@
   <div class="price__pricing-group">
     <div class="price__regular">
       <dt>
-        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
-
-{% assign regular_price = product.regular_price | remove: "," | remove: "€" | plus: 0 %}
-{% assign sale_price = product.price | remove: "," | remove: "€" | plus: 0 %}
-
-{% assign discount_amount = regular_price | minus: sale_price %}
-{% assign discount_percentage = discount_amount | times: 100 | divided_by: regular_price %}
-
-El producto tiene un descuento del {{ money_price }}%.
-        <span class="price-item price-item--regular" data-regular-price>
-          {{ money_price }}
-        </span>
-
-        
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>       
       </dt>
       <dd>
         <span class="price-item price-item--regular" data-regular-price>
@@ -76,6 +63,7 @@ El producto tiene un descuento del {{ money_price }}%.
         </span>
       </dd>
     </div>
+    
     <div class="price__sale">
       <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.sale_price' | t }}</span>
