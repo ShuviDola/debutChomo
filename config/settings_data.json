@@ -5,6 +5,9 @@
     "sections": {
       "header": {
         "type": "header",
+        "custom_css": [
+          ".site-nav{font-size:18px;}"
+        ],
         "settings": {
           "align_logo": "center",
           "logo_max_width": 250,
