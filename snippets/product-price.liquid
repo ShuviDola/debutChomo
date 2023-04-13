@@ -59,7 +59,9 @@
 
 {% assign discount_amount = products.product.sale_price | minus: products.product.regular_pric %}
 {% assign discount_percentage = discount_amount | times: 100 | divided_by: original_price %}
-El producto tiene un descuento del {{ products.product.sale_price }}%.
+        
+El producto tiene un descuentos del {{ products.product.regular_pric }}.
+        
       </dt>
       <dd>
         <span class="price-item price-item--regular" data-regular-price>
