@@ -97,7 +97,19 @@ Chomo code
       </dt>
     </div>
 
+
+      
     <div class="price__badges">
+      <span class="price__badge price__badge--sale" aria-hidden="true">
+        <span>{{ 'products.product.on_sale' | t }}</span>
+      </span>
+      <span class="price__badge price__badge--sold-out">
+        <span>{{ 'products.product.sold_out' | t }}</span>
+      </span>
+    </div>
+  </div>
+
+      <div class="price__badges">
           <dd>
         <s class="price-item price-item--regular" data-regular-price>
           {% if settings.currency_code_enabled %}
@@ -109,16 +121,7 @@ Chomo code
       </dd>
 
     </div>
-      
-    <div class="price__badges">
-      <span class="price__badge price__badge--sale" aria-hidden="true">
-        <span>{{ 'products.product.on_sale' | t }}</span>
-      </span>
-      <span class="price__badge price__badge--sold-out">
-        <span>{{ 'products.product.sold_out' | t }}</span>
-      </span>
-    </div>
-  </div>
+  
   <div class="price__unit">
     <dt>
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
