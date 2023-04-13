@@ -65,8 +65,7 @@
     </div>
 
 {% comment %}
-Este es un comentario que se extiende por varias líneas.
-Puedes agregar cualquier texto o código aquí sin afectar el resultado final.
+Chomo code
 {% endcomment %}
 
     {% assign regular_price = product.compare_at_price | remove: "," | remove: "€" | plus: 0 %}
@@ -79,8 +78,9 @@ Puedes agregar cualquier texto o código aquí sin afectar el resultado final.
           -{{ discount_percentage}}%
         </span>
 
-    {# Chomo code#}
-
+{% comment %}
+Chomo code
+{% endcomment %}
     
     <div class="price__sale">
       <dt>
