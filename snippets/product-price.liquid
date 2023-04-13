@@ -64,7 +64,14 @@
       </dd>
     </div>
 
-{% comment %}
+
+    
+    <div class="price__sale">
+      <dt>
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.sale_price' | t }}</span>
+      </dt>
+      <dd>
+        {% comment %}
 Chomo code
 {% endcomment %}
 
@@ -81,12 +88,6 @@ Chomo code
 {% comment %}
 Chomo code
 {% endcomment %}
-    
-    <div class="price__sale">
-      <dt>
-        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.sale_price' | t }}</span>
-      </dt>
-      <dd>
         <span class="price-item price-item--sale" data-sale-price>
           {{ money_price }}
         </span>
