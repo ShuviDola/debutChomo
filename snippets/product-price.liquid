@@ -57,10 +57,15 @@
       <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
 
-{% assign discount_amount = products.product.sale_price | minus: products.product.regular_pric %}
-{% assign discount_percentage = discount_amount | times: 100 | divided_by: original_price %}
-        
-El producto tiene un descuentos del {{ products.product.regular_pric }}.
+{% assign regular_price = product.regular_price | remove: "," | remove: "€" | plus: 0 %}
+{% assign sale_price = product.price | remove: "," | remove: "€" | plus: 0 %}
+
+{% assign discount_amount = regular_price | minus: sale_price %}
+{% assign discount_percentage = discount_amount | times: 100 | divided_by: regular_price %}
+
+El producto tiene un descuento del {{ discount_percentage }}%.
+
+
         
       </dt>
       <dd>
