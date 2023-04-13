@@ -43,7 +43,8 @@
         "share"
       ],
       "custom_css": [
-        ".recomentation_price {font-size:12px;}"
+        ".recomentation_price {font-size: 12px;}",
+        ".recomendation_price_line-through {text-decoration: line-through; color: #565959;}"
       ],
       "settings": {
         "show_quantity_selector": true,
