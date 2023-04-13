@@ -197,6 +197,11 @@
 <!--End_Gem_Page_Header_Script-->
   {% if template == 'cart' %}{% include "revy-bundle-script" %}{% endif %}
 
+  {% if template == 'index' %}
+  {% include 'popup' %}
+{% endif %}
+
+  
 </head>
 <body class="template-{{ request.page_type | handle }}">
 
