@@ -79,10 +79,11 @@
 <script>
 
 // Cierra el pop-up al hacer clic en el botón de cerrar
-document.querySelector('.close').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.querySelector('.popup-wrapper').remove();
-});
+  document.querySelector('.close').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('.popup-wrapper').style.display = 'none';
+  });
+
 
 // Cierra el pop-up al hacer clic fuera de él
 document.querySelector('.popup-wrapper').addEventListener('click', function(event) {
