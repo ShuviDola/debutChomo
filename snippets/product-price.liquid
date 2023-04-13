@@ -63,7 +63,16 @@
         </span>
       </dd>
     </div>
-    
+    {% assign regular_price = product.regular_price | remove: "," | remove: "€" | plus: 0 %}
+{% assign sale_price = product.price | remove: "," | remove: "€" | plus: 0 %}
+
+{% assign discount_amount = regular_price | minus: sale_price %}
+{% assign discount_percentage = discount_amount | times: 100 | divided_by: regular_price %}
+
+        <span class="price-item price-item--regular" data-regular-price>
+          {{ money_price }}
+        </span>
+
     <div class="price__sale">
       <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.sale_price' | t }}</span>
