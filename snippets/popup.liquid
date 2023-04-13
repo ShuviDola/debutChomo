@@ -79,7 +79,7 @@
 <script>
 
 // Cierra el pop-up al hacer clic en el botón de cerrar
-  document.querySelector('.close').addEventListener('click', function(event) {
+  document.querySelector('.closePopup').addEventListener('click', function(event) {
     event.preventDefault();
     document.querySelector('.popup-wrapper').style.display = 'none';
   });
@@ -108,6 +108,6 @@ document.querySelector('.popup').addEventListener('click', function(event) {
       <input type="email" name="contact[email]" placeholder="Ingresa tu correo electrónico" required>
       <button type="submit" class="btn">Suscríbete</button>
     </form>
-    <a href="#" class="close">Cerrar</a>
+    <a href="#" class="closePopup">Cerrar</a>
   </div>
 </div>
