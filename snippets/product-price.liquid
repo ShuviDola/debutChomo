@@ -95,7 +95,10 @@ Chomo code
       <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
       </dt>
-      <dd>
+    </div>
+
+    <div class="price__badges">
+          <dd>
         <s class="price-item price-item--regular" data-regular-price>
           {% if settings.currency_code_enabled %}
             {{ compare_at_price | money_with_currency }}
@@ -104,7 +107,9 @@ Chomo code
           {% endif %}
         </s>
       </dd>
+
     </div>
+      
     <div class="price__badges">
       <span class="price__badge price__badge--sale" aria-hidden="true">
         <span>{{ 'products.product.on_sale' | t }}</span>
