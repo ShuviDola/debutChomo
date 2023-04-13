@@ -81,7 +81,7 @@ Chomo code
 {% assign discount_amount = regular_price | minus: sale_price %}
 {% assign discount_percentage = discount_amount | times: 100 | divided_by: regular_price %}
 
-        <span class="price-item price-item--sale" data-regular-price>
+        <span class="price_discount_percentage" data-regular-price>
           -{{ discount_percentage}}%
         </span>
 
