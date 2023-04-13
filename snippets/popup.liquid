@@ -76,11 +76,25 @@
 
 </style>
 
+
+
+<div class="popup-wrapper">
+  <div class="popup">
+    <h2>¡No te pierdas nuestras ofertas!</h2>
+    <p>Ingresa tu correo electrónico para recibir un 10% de descuento en tu próxima compra.</p>
+    <form method="post" action="/contact#contact_form" id="popup-form" class="contact-form">
+      <input type="hidden" name="form_type" value="contact">
+      <input type="email" name="contact[email]" placeholder="Ingresa tu correo electrónico" required>
+      <button type="submit" class="btn">Suscríbete</button>
+    </form>
+    <a href="#" class="closePopup">Cerrar</a>
+  </div>
+</div>
+
 <script>
 
 // Cierra el pop-up al hacer clic en el botón de cerrar
   document.querySelector('.closePopup').addEventListener('click', function(event) {
-    console.log("click")
     event.preventDefault();
     document.querySelector('.popup-wrapper').style.display = 'none';
   });
@@ -99,16 +113,3 @@ document.querySelector('.popup').addEventListener('click', function(event) {
 });
 
 </script>
-
-<div class="popup-wrapper">
-  <div class="popup">
-    <h2>¡No te pierdas nuestras ofertas!</h2>
-    <p>Ingresa tu correo electrónico para recibir un 10% de descuento en tu próxima compra.</p>
-    <form method="post" action="/contact#contact_form" id="popup-form" class="contact-form">
-      <input type="hidden" name="form_type" value="contact">
-      <input type="email" name="contact[email]" placeholder="Ingresa tu correo electrónico" required>
-      <button type="submit" class="btn">Suscríbete</button>
-    </form>
-    <a href="#" class="closePopup">Cerrar</a>
-  </div>
-</div>
