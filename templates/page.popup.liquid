@@ -1,3 +1,105 @@
+<style
+
+  .popup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+.popup {
+  position: relative;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+.popup form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.popup input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  flex-grow: 1;
+  min-width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.popup .btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup .btn:hover {
+  background-color: #333;
+}
+
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup .close:hover {
+  color: #000;
+}
+
+  
+  </style>
+
+<javascript>
+
+// Cierra el pop-up al hacer clic en el botón de cerrar
+document.querySelector('.close').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.querySelector('.popup-wrapper').remove();
+});
+
+// Cierra el pop-up al hacer clic fuera de él
+document.querySelector('.popup-wrapper').addEventListener('click', function(event) {
+  if (event.target === this) {
+    this.remove();
+  }
+});
+
+// Impide que se cierre el pop-up al hacer clic dentro de él
+document.querySelector('.popup').addEventListener('click', function(event) {
+  event.stopPropagation();
+});
+
+  
+</javascript>
+
 <div class="popup-wrapper">
   <div class="popup">
     <h2>¡No te pierdas nuestras ofertas!</h2>
