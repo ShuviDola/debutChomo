@@ -64,7 +64,10 @@
       </dd>
     </div>
 
-{# Este es un comentario de una sola línea #}
+{% comment %}
+Este es un comentario que se extiende por varias líneas.
+Puedes agregar cualquier texto o código aquí sin afectar el resultado final.
+{% endcomment %}
 
     {% assign regular_price = product.compare_at_price | remove: "," | remove: "€" | plus: 0 %}
 {% assign sale_price = product.price | remove: "," | remove: "€" | plus: 0 %}
