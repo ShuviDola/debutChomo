@@ -110,13 +110,13 @@
                         <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                       </dt>
                       <dd>
-                        <s data-cart-item-original-price>{{ item.original_price | money }}</s>
+                        <s data-cart-item-original-price><span data-item-key='{{ item.key }}' class='revy-original-item-price'><span data-item-key='{{ item.key }}' class='revy-original-item-price'>{{ item.original_price | money }}</span></span></s>
                       </dd>
                       <dt>
                         <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
                       </dt>
                       <dd>
-                        <span class="order-discount" data-cart-item-final-price>{{ item.final_price | money }}</span>
+                        <span class="order-discount" data-cart-item-final-price><span data-item-key='{{ item.key }}' class='revy-original-item-price'>{{ item.final_price | money }}</span></span>
                       </dd>
                     </div>
 
@@ -128,7 +128,7 @@
                         <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                       </dt>
                       <dd data-cart-item-regular-price>
-                        {{ item.original_price | money }}
+                        <span data-item-key='{{ item.key }}' class='revy-original-item-price'><span data-item-key='{{ item.key }}' class='revy-original-item-price'>{{ item.original_price | money }}</span></span>
                       </dd>
                     </div>
 
@@ -210,13 +210,13 @@
                     <span class="visually-hidden">{{ 'cart.label.regular_total' | t }}</span>
                   </dt>
                   <dd>
-                    <s data-cart-item-original-price>{{ item.original_line_price | money }}</s>
+                    <s data-cart-item-original-price><span data-item-key='{{ item.key }}' class='revy-final-item-price'><span data-item-key='{{ item.key }}' class='revy-final-item-price'>{{ item.original_line_price | money }}</span></span></s>
                   </dd>
                   <dt>
                     <span class="visually-hidden">{{ 'cart.label.discounted_total' | t }}</span>
                   </dt>
                   <dd>
-                    <span class="order-discount" data-cart-item-final-price>{{ item.final_line_price | money }}</span>
+                    <span class="order-discount" data-cart-item-final-price><span data-item-key='{{ item.key }}' class='revy-final-item-price'>{{ item.final_line_price | money }}</span></span>
                   </dd>
                 </dl >
 
@@ -224,7 +224,7 @@
                   Markup template for regular price item
                 {%- endcomment -%}
                 <div {% if item.original_line_price != item.final_line_price %}class="hide" {% endif %}data-cart-item-regular-price-group>
-                  <span data-cart-item-regular-price>{{ item.original_line_price | money }}</span>
+                  <span data-cart-item-regular-price><span data-item-key='{{ item.key }}' class='revy-final-item-price'><span data-item-key='{{ item.key }}' class='revy-final-item-price'>{{ item.original_line_price | money }}</span></span></span>
                 </div>
               </td>
             </tr>
@@ -260,8 +260,8 @@
             </div>
 
             <div class="cart-subtotal">
-              <span class="cart-subtotal__title">{{ 'cart.general.subtotal' | t }}</span>
-              <span class="cart-subtotal__price" data-cart-subtotal>{{ cart.total_price | money_with_currency }}</span>
+              <span class="cart-subtotal__title"><span id='revy-cart-subtotal-label'>{{ 'cart.general.subtotal' | t }}</span></span>
+              <span class="cart-subtotal__price" data-cart-subtotal><span id='revy-cart-subtotal-price'>{{ cart.total_price | money_with_currency }}</span></span>
             </div>
 
             {%- capture taxes_shipping_checkout -%}
