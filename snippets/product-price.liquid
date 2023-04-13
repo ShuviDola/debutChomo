@@ -70,7 +70,7 @@
 {% assign discount_percentage = discount_amount | times: 100 | divided_by: regular_price %}
 
         <span class="price-item price-item--regular" data-regular-price>
-          {{  regular_price }}
+          {{  product.regular_price | money }}
         </span>
 
     <div class="price__sale">
