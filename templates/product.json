@@ -42,6 +42,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".recomentation_price {font-size:12px;}"
+      ],
       "settings": {
         "show_quantity_selector": true,
         "show_vendor": false,
