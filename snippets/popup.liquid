@@ -80,6 +80,7 @@
 
 // Cierra el pop-up al hacer clic en el botón de cerrar
   document.querySelector('.closePopup').addEventListener('click', function(event) {
+    console.log("click")
     event.preventDefault();
     document.querySelector('.popup-wrapper').style.display = 'none';
   });
