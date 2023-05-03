@@ -1,43 +1,5 @@
 {
   "sections": {
-    "b5337cff-e625-4f9d-8c63-ad775f9f1892": {
-      "type": "slideshow",
-      "blocks": {
-        "template--18487494639965__b5337cff-e625-4f9d-8c63-ad775f9f1892-168313360472c4f2e8-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1.jpg",
-            "alignment": "center center",
-            "slide_title": "Image slide",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--18487494639965__b5337cff-e625-4f9d-8c63-ad775f9f1892-168313360472c4f2e8-1": {
-          "type": "image",
-          "settings": {
-            "alignment": "center center",
-            "slide_title": "Image slide",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18487494639965__b5337cff-e625-4f9d-8c63-ad775f9f1892-168313360472c4f2e8-0",
-        "template--18487494639965__b5337cff-e625-4f9d-8c63-ad775f9f1892-168313360472c4f2e8-1"
-      ],
-      "settings": {
-        "slideshow_height": "adapt",
-        "text_size": "large",
-        "text_alignment": "center center",
-        "show_overlay": true,
-        "autorotate": false,
-        "autorotate_speed": 5
-      }
-    },
     "hero-2": {
       "type": "hero",
       "settings": {
@@ -140,7 +102,6 @@
     }
   },
   "order": [
-    "b5337cff-e625-4f9d-8c63-ad775f9f1892",
     "hero-2",
     "9e28ef57-4e58-4057-b684-1428102c86cf",
     "109428ce-f58e-466c-ae5b-851c32ce27d7",
