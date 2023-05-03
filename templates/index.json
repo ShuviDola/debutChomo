@@ -2,6 +2,7 @@
   "sections": {
     "hero-2": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-aleksandr-slobodianyk-989959.jpg",
         "alignment": "center",
@@ -16,6 +17,7 @@
     },
     "9e28ef57-4e58-4057-b684-1428102c86cf": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "title": "Productos DE Ruido blanco",
         "collection": "ruido-blanco",
@@ -27,6 +29,7 @@
     },
     "109428ce-f58e-466c-ae5b-851c32ce27d7": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/light-gb1de935ef_1280.jpg",
         "alignment": "center",
@@ -41,6 +44,7 @@
     },
     "collection": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "title": "PRODUCTOS DE Humidificadores de agua",
         "collection": "humidificadores-de-agua",
@@ -52,6 +56,7 @@
     },
     "75f62bdc-967d-447b-b4b5-efc5a31fcb16": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-mareefe-932577.jpg",
         "alignment": "center",
@@ -66,6 +71,7 @@
     },
     "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "title": "PRODUCTOS DE Humidificadores de aromaterapia",
         "collection": "humidificadores-de-aromaterapia",
@@ -77,6 +83,7 @@
     },
     "ef696a49-16bb-45e4-a0ca-e6861e093018": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-polina-kovaleva-6541429.jpg",
         "alignment": "center",
@@ -91,6 +98,7 @@
     },
     "72deab20-1b60-475c-abea-d90a4e6c4835": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "title": "Productos Esenciales para Dormir",
         "collection": "esenciales-para-dormir",
@@ -102,7 +110,6 @@
     },
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "collection": "todos-dormir-mejor",
@@ -110,6 +117,40 @@
         "rows": 5,
         "show_vendor": false,
         "show_view_all": false
+      }
+    },
+    "ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e": {
+      "type": "quotes",
+      "blocks": {
+        "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-0": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>asdasdadad<\/p>",
+            "author": "Fernandio"
+          }
+        },
+        "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-0",
+        "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-1",
+        "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-2"
+      ],
+      "settings": {
+        "title": "Testimonials"
       }
     }
   },
@@ -122,6 +163,7 @@
     "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4",
     "ef696a49-16bb-45e4-a0ca-e6861e093018",
     "72deab20-1b60-475c-abea-d90a4e6c4835",
-    "a23ed2c4-612c-4994-b79b-7dea0cd9e52c"
+    "a23ed2c4-612c-4994-b79b-7dea0cd9e52c",
+    "ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e"
   ]
 }
