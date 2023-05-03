@@ -5,7 +5,7 @@
     "primaryLocale": "es",
     "adminMode": false
   },
-  "tsPublished": 1680458646,
+  "tsPublished": 1683132288,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -147,6 +147,27 @@
       },
       "declThirdParty": {
         "es": "Tercero"
+      },
+      "declSeconds": {
+        "es": "segundos"
+      },
+      "declMinutes": {
+        "es": "minutos"
+      },
+      "declHours": {
+        "es": "horas"
+      },
+      "declDays": {
+        "es": "días"
+      },
+      "declMonths": {
+        "es": "meses"
+      },
+      "declYears": {
+        "es": "años"
+      },
+      "declSession": {
+        "es": "Sesión"
       },
       "cookiesDetailsText": {
         "es": "Detalles de las cookies"
@@ -357,6 +378,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "es": "Used in connection with customer login."
         }
@@ -368,6 +391,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "es": "Shopify store localization"
         }
@@ -379,6 +404,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
         "purpose": {
           "es": "Used in connection with shopping cart."
         }
@@ -390,6 +417,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "24 hour(s)",
+        "expires": 24,
+        "unit": "declHours",
         "purpose": {
           "es": "Used in connection with navigation through a storefront."
         }
@@ -401,6 +430,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "es": "Used in connection with buyer localization."
         }
@@ -412,6 +443,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "60 minute(s)",
+        "expires": 60,
+        "unit": "declMinutes",
         "purpose": {
           "es": "Used in connection with checkout."
         }
@@ -425,6 +458,8 @@
         "provider": "GrizzlyAppsSRL",
         "firstParty": true,
         "retention": "Session",
+        "expires": -1680458632,
+        "unit": "declSeconds",
         "purpose": {
           "es": "This cookie is provided by the app (BEST Currency Converter) and is used to secure the currency chosen by the customer."
         }
@@ -438,6 +473,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "es": "Shopify analytics."
         }
@@ -449,6 +486,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "es": "Shopify analytics."
         }
@@ -460,6 +499,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "es": "Shopify analytics."
         }
@@ -471,6 +512,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "es": "Shopify analytics."
         }
@@ -482,6 +525,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
         "purpose": {
           "es": "Tracks landing pages."
         }
@@ -493,6 +538,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
         "purpose": {
           "es": "Tracks landing pages."
         }
@@ -504,6 +551,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "es": "Shopify analytics relating to marketing & referrals."
         }
@@ -515,6 +564,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "es": "Cookie is set by Google Analytics with unknown functionality"
         }
@@ -526,6 +577,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "es": "Cookie is set by Google Analytics with unknown functionality"
         }
@@ -537,6 +590,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "es": "Shopify analytics relating to marketing & referrals."
         }

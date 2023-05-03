@@ -8,13 +8,13 @@
           "settings": {
           }
         },
-        "judgeme_preview_badge_product_page_b38ff81f": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
+        "judgeme_preview_badge_product_page_b38ff81f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -36,17 +36,11 @@
       },
       "block_order": [
         "title",
-        "judgeme_preview_badge_product_page_b38ff81f",
         "price",
+        "judgeme_preview_badge_product_page_b38ff81f",
         "buttons",
         "description",
         "share"
-      ],
-      "custom_css": [
-        ".recomentation_price {font-size: 12px;}",
-        ".recomendation_price_line-through {text-decoration: line-through; color: #565959;}",
-        ".price_discount_percentage {font-size: 24px !important; line-height: 32px !important; color: #cc0c39;}",
-        ".price-item.price-item--sale {font-size: 28px; color: #0F1111;}"
       ],
       "settings": {
         "show_quantity_selector": true,
@@ -56,14 +50,6 @@
         "media_size": "medium",
         "enable_image_zoom": true,
         "enable_video_looping": false
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "Te podría gustar",
-        "show_vendor": false
       }
     },
     "judgeme_section_review_widget_6932": {
@@ -81,6 +67,14 @@
       "settings": {
       }
     },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "Te podría gustar",
+        "show_vendor": false
+      }
+    },
     "product-back-to-collection": {
       "type": "product-back-to-collection",
       "settings": {
@@ -94,8 +88,8 @@
   },
   "order": [
     "main",
-    "product-recommendations",
     "judgeme_section_review_widget_6932",
+    "product-recommendations",
     "product-back-to-collection",
     "168098469381e070e3"
   ]
