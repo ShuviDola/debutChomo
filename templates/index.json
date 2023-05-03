@@ -2,7 +2,6 @@
   "sections": {
     "hero-2": {
       "type": "hero",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-aleksandr-slobodianyk-989959.jpg",
         "alignment": "center",
@@ -17,7 +16,6 @@
     },
     "9e28ef57-4e58-4057-b684-1428102c86cf": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "title": "Productos DE Ruido blanco",
         "collection": "ruido-blanco",
@@ -29,7 +27,6 @@
     },
     "109428ce-f58e-466c-ae5b-851c32ce27d7": {
       "type": "hero",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/light-gb1de935ef_1280.jpg",
         "alignment": "center",
@@ -44,7 +41,6 @@
     },
     "collection": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "title": "PRODUCTOS DE Humidificadores de agua",
         "collection": "humidificadores-de-agua",
@@ -56,7 +52,6 @@
     },
     "75f62bdc-967d-447b-b4b5-efc5a31fcb16": {
       "type": "hero",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-mareefe-932577.jpg",
         "alignment": "center",
@@ -71,7 +66,6 @@
     },
     "c64d9fe8-e7c0-4be1-81c0-9da5f3ec8ab4": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "title": "PRODUCTOS DE Humidificadores de aromaterapia",
         "collection": "humidificadores-de-aromaterapia",
@@ -83,7 +77,6 @@
     },
     "ef696a49-16bb-45e4-a0ca-e6861e093018": {
       "type": "hero",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-polina-kovaleva-6541429.jpg",
         "alignment": "center",
@@ -98,7 +91,6 @@
     },
     "72deab20-1b60-475c-abea-d90a4e6c4835": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "title": "Productos Esenciales para Dormir",
         "collection": "esenciales-para-dormir",
@@ -110,6 +102,7 @@
     },
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "collection": "todos-dormir-mejor",
