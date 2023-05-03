@@ -110,7 +110,6 @@
     },
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "collection": "todos-dormir-mejor",
@@ -157,6 +156,7 @@
     },
     "a829f922-c4ae-4b1f-9f83-a57f01f33c2f": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--18487494639965__a829f922-c4ae-4b1f-9f83-a57f01f33c2f-1683135536bd9be941-0": {
           "type": "featured_collection",
@@ -179,6 +179,22 @@
         "title": "Collection list",
         "grid": 2
       }
+    },
+    "16831361756504a71b": {
+      "type": "apps",
+      "blocks": {
+        "eb4b25a7-d17b-4057-a176-f875a2b9bf6b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "eb4b25a7-d17b-4057-a176-f875a2b9bf6b"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -192,6 +208,7 @@
     "72deab20-1b60-475c-abea-d90a4e6c4835",
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c",
     "ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e",
-    "a829f922-c4ae-4b1f-9f83-a57f01f33c2f"
+    "a829f922-c4ae-4b1f-9f83-a57f01f33c2f",
+    "16831361756504a71b"
   ]
 }
