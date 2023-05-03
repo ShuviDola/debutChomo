@@ -111,7 +111,7 @@
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c": {
       "type": "collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "collection": "todos-dormir-mejor",
         "grid": 3,
         "rows": 2,
