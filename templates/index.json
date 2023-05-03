@@ -110,6 +110,7 @@
     },
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "collection": "todos-dormir-mejor",
@@ -121,6 +122,7 @@
     },
     "ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e": {
       "type": "quotes",
+      "disabled": true,
       "blocks": {
         "template--18487494639965__ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e-168313534485fb5de6-0": {
           "type": "quote",
