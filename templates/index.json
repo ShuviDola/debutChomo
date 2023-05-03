@@ -152,6 +152,31 @@
       "settings": {
         "title": "Testimonials"
       }
+    },
+    "a829f922-c4ae-4b1f-9f83-a57f01f33c2f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18487494639965__a829f922-c4ae-4b1f-9f83-a57f01f33c2f-1683135536bd9be941-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "todos-dormir-mejor"
+          }
+        },
+        "template--18487494639965__a829f922-c4ae-4b1f-9f83-a57f01f33c2f-1683135536bd9be941-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "productos-recomendados-para-dormir-mejor"
+          }
+        }
+      },
+      "block_order": [
+        "template--18487494639965__a829f922-c4ae-4b1f-9f83-a57f01f33c2f-1683135536bd9be941-0",
+        "template--18487494639965__a829f922-c4ae-4b1f-9f83-a57f01f33c2f-1683135536bd9be941-1"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "grid": 2
+      }
     }
   },
   "order": [
@@ -164,6 +189,7 @@
     "ef696a49-16bb-45e4-a0ca-e6861e093018",
     "72deab20-1b60-475c-abea-d90a4e6c4835",
     "a23ed2c4-612c-4994-b79b-7dea0cd9e52c",
-    "ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e"
+    "ef4e4f30-9d1a-4dc8-a590-de5734cf4e2e",
+    "a829f922-c4ae-4b1f-9f83-a57f01f33c2f"
   ]
 }
