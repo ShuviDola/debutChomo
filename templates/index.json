@@ -113,8 +113,8 @@
       "settings": {
         "title": "",
         "collection": "todos-dormir-mejor",
-        "grid": 3,
-        "rows": 2,
+        "grid": 4,
+        "rows": 5,
         "show_vendor": false,
         "show_view_all": false
       }
